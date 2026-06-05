@@ -26,4 +26,14 @@ The program is a command-line utility with the following features:
 
 - Overlay does not support alpha blending only direct pixel copying.
 
+- Two PNGs of different color types cannot be overlayed. 
+
+## Example
+
+Below is example of the overlay feature.
+
+To generate the preview yourself, run the following code:
+
+    bin/png -f images/Large_batman_6.png -m images/Small_batman_6.png -o preview.png
+
 ![](https://raw.githubusercontent.com/atacoi/cse320hws/main/PNG_HW/preview.png)
