@@ -1,0 +1,7 @@
+bin/
+build/
+.vscode
+tests/my_tests
+tests/my_data
+tests/ed_data
+tests/filter_data
